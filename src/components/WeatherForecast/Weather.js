@@ -5,6 +5,7 @@ import FullWeatherInfo from '../WeatherForecast/City/WeatherInfoFull';
 
 class Weather extends PureComponent {
     state = {
+        weatherData: null,
         woeid: (typeof this.props.match.params.woeid === 'string' ) ? this.props.match.params.woeid : null,
     }
 
@@ -19,7 +20,7 @@ class Weather extends PureComponent {
     
     render() {
         let days = null;
-        if (typeof this.state.weatherData !== 'undefined') {
+        if (this.state.weatherData !== null) {
             days =  (
                 <div>
                     <h3 style={ {"marginLeft": "20px"} }>Weather details for {this.state.weatherData.title} </h3>
