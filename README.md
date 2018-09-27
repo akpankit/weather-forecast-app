@@ -21,3 +21,11 @@ Assuming you have all the pre-requisite installed and configured properly on you
 After successfully executing the steps run `docker ps` and make sure app containers are running. 
 
 Navigate to `http://localhost` to check the app.
+
+Screenshots:
+
+https://user-images.githubusercontent.com/11822779/46164299-a45a6480-c25b-11e8-93dd-4c76a1bac107.png
+
+https://user-images.githubusercontent.com/11822779/46164303-a7555500-c25b-11e8-9ee0-0f98570fc17d.png
+
+https://user-images.githubusercontent.com/11822779/46164307-a8868200-c25b-11e8-943c-c0d0021b0d31.png
